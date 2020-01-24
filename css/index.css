@@ -160,6 +160,9 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  background-color: #e2dbdb;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;

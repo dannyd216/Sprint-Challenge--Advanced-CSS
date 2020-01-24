@@ -1,1 +1,61 @@
 // Navigation code here
+
+header {
+
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+
+    @media @phone {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    // END @media @phone
+
+    h1 {
+        font-size: 2rem;
+        color: @mainColor;
+
+        @media @phone {
+            margin-bottom: 20px;
+        }
+
+        // END @media @phone
+    }
+
+    // END h1
+
+    nav {
+        margin-left: 62px;
+
+        @media @phone {
+            margin-left: 0;
+        }
+
+        // END @media @phone
+
+        a {
+            margin-left: 20px;
+            font-size: 1.8rem;
+            color: @accentColor;
+
+            &:hover {
+                color: @mainColor;
+            }
+
+            //END hover
+        }
+
+        // END a
+
+
+    }
+
+    //END OF nav
+
+}
+
+// END header
