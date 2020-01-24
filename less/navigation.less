@@ -1,61 +1,73 @@
 // Navigation code here
 
-header {
+// header {
 
-    border: 1px solid black;
+//     border: 3px solid black;
+//     margin: 0;
+//     padding: 3%;
+//     display: flex;
+//     justify-content: space-between;
+
+//     @media @phone {
+//         flex-direction: column;
+//         align-items: center;
+//     }
+
+//     // END @media @phone
+
+//     h1 {
+//         font-size: 2rem;
+//         color: @mainColor;
+
+//         @media @phone {
+//             margin-bottom: 20px;
+//         }
+
+//         // END @media @phone
+//     }
+
+//     // END h1
+
+nav {
+    padding: 3%;
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    @nav-font: @river-bend;
+    background-color: @sea-shell;
+
+    h1 {
+        font-size: 50px;
+        padding: 2%;
+    }
+
 
     @media @phone {
-        flex-direction: column;
-        align-items: center;
+        margin-left: 0;
     }
 
     // END @media @phone
 
-    h1 {
-        font-size: 2rem;
-        color: @mainColor;
+    a {
+        margin: 0;
+        padding: 3%;
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: black;
 
-        @media @phone {
-            margin-bottom: 20px;
+
+
+        &:hover {
+            color: @mainColor;
         }
 
-        // END @media @phone
+        //END hover
     }
 
-    // END h1
+    // END a
 
-    nav {
-        margin-left: 62px;
-
-        @media @phone {
-            margin-left: 0;
-        }
-
-        // END @media @phone
-
-        a {
-            margin-left: 20px;
-            font-size: 1.8rem;
-            color: @accentColor;
-
-            &:hover {
-                color: @mainColor;
-            }
-
-            //END hover
-        }
-
-        // END a
-
-
-    }
-
-    //END OF nav
 
 }
 
-// END header
+//END OF nav
+
+// }

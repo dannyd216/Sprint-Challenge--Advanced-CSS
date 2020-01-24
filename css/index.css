@@ -160,8 +160,30 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-header {
-  background-color: #e2dbdb;
+nav {
+  padding: 3%;
+  margin: 0;
+  text-align: center;
+  background-color: #F1F1F1;
+}
+nav h1 {
+  font-size: 50px;
+  padding: 2%;
+}
+@media ('max-width: 500px') {
+  nav {
+    margin-left: 0;
+  }
+}
+nav a {
+  margin: 0;
+  padding: 3%;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: #5E6164;
 }
 footer {
   color: #22283B;
@@ -215,6 +237,32 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  display: block;
+  background-color: #23293B;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 1%;
+}
+@media ('max-width: 500px') {
+  .home .walk .walk-text .btn {
+    width: 90%;
+    height: 50px;
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  .home .walk .walk-text .btn {
+    background: aqua;
+    color: fuchsia;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
@@ -223,4 +271,7 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+#skyImage img {
+  width: 100%;
 }
