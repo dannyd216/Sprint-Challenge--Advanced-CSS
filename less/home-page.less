@@ -35,11 +35,22 @@
 
     }
 
-    @media @phone {
-      img {
-        display: block;
+    .sky {
+      @media @phone {
+        display: none;
       }
     }
+
+    // ENDS .sky
+
+    .launch {
+      @media @phone {
+        display: none;
+      }
+
+      // ENDS .launch
+    }
+
   }
 
   .visit-planets {
@@ -77,10 +88,6 @@
         .customButton(@ebony-clay, 200px, white);
         text-align: center;
         padding-top: 1%;
-
-        @media @phone {
-          background-color: pink;
-        }
 
       }
     }
