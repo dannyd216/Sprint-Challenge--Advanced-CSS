@@ -90,6 +90,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -104,17 +105,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -122,22 +127,27 @@ q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 * {
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
   font-weight: bold;
 }
+
 html,
 body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
 }
+
 h1,
 h2,
 h3,
@@ -146,36 +156,44 @@ h5 {
   font-family: 'Russo One', sans-serif;
   color: #23293B;
 }
+
 h2 {
   font-size: 3.2rem;
 }
+
 h3 {
   font-size: 2.8rem;
 }
+
 p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+
 .container {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
+
 nav {
   padding: 3%;
   margin: 0;
   text-align: center;
   background-color: #F1F1F1;
 }
+
 nav h1 {
   font-size: 50px;
   padding: 2%;
 }
+
 @media (max-width: 500px) {
   nav {
     margin-left: 0;
   }
 }
+
 nav a {
   margin: 0;
   padding: 1%;
@@ -183,16 +201,18 @@ nav a {
   text-decoration: none;
   color: black;
 }
+
 @media (max-width: 500px) {
   nav a {
     width: 100%;
     text-align: center;
-    background-color: blue;
   }
 }
+
 nav a:hover {
-  color: #5E6164;
+  color: gray;
 }
+
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -203,45 +223,62 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
 #skyImage img {
   width: 100%;
 }
+
 .home .intro h2 {
   padding: 15px;
 }
+
 .home .intro p {
   padding: 0 15px;
 }
+
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
+
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
 }
+
 @media (max-width: 500px) {
   .home .space-images .sky {
     display: none;
   }
 }
+
 @media (max-width: 500px) {
   .home .space-images .launch {
     display: none;
   }
 }
+
+@media (max-width: 500px) {
+  .home .space-images .blast {
+    width: 100%;
+  }
+}
+
 .home .visit-planets {
   padding: 15px;
 }
+
 .home .visit-planets h3 {
   margin-top: 11px;
 }
+
 .home .visit-planets p {
   margin-top: 13px;
 }
+
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
@@ -249,16 +286,36 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+@media (max-width: 500px) {
+  .home .walk {
+    flex-direction: column-reverse;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
 .home .walk .walk-text {
   width: 50%;
 }
+
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+    font-size: 40px;
+  }
+}
+
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
   font-size: 30px;
 }
+
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+
 .home .walk .walk-text .btn {
   display: block;
   background-color: #23293B;
@@ -272,26 +329,28 @@ footer {
   text-align: center;
   padding-top: 1%;
 }
+
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 90%;
     height: 50px;
     font-size: 2.5rem;
-    background-color: pink;
   }
 }
-@media (max-width: 400px) {
-  .home .walk .walk-text .btn {
-    background: aqua;
-    color: fuchsia;
-  }
-}
+
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
+
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+
+@media (max-width: 500px) {
+  .home .walk .walk-img {
+    width: 100%;
+  }
 }
