@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Responsive design change to any screen size so they are not hardcoded into each media query. Using percentages, em, and rem help the layout adapt to screen size
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+To design mobile first is to design for the smaller screen width and later add code for larger screens
+
+To design desktop first is to design for the biggest screen and add queries for the smaller screens
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The font size 62.5% is the basis on which the em and rem will multiply from.  Based on the fixed size the rem and em units will be able to size text accordingly on screen. Helpful for programming and designing for people with disabilities.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is when a separate compiler is used to compile the CSS. It uses the preprocessor's language to code and retranslates it into browser readable CSS
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Being able to make mixins are great as well as being able to nest commands that are linked helps eliminate wasting time going through different files. I need to practice media queries and mixins
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

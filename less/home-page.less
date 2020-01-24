@@ -1,3 +1,11 @@
+#skyImage img {
+  width: 100%;
+
+}
+
+// SKY IMAGE ABOVE LIFT OFF
+
+
 // Home Content
 
 .home {
@@ -24,6 +32,13 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+    }
+
+    @media @phone {
+      img {
+        display: block;
+      }
     }
   }
 
@@ -62,7 +77,10 @@
         .customButton(@ebony-clay, 200px, white);
         text-align: center;
         padding-top: 1%;
-        ;
+
+        @media @phone {
+          background-color: pink;
+        }
 
       }
     }
@@ -84,12 +102,6 @@
 
 
 
-#skyImage img {
-  width: 100%;
-
-}
-
-// SKY IMAGE ABOVE LIFT OFF
 
 // body {
 
