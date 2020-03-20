@@ -1,1 +1,51 @@
 // Mixins Here
+
+// @phone (max-width: 530px) {
+
+//     width: 100%;
+
+    
+// }
+
+// .center(){
+
+//     justify-content: center;
+
+// }
+
+// .border() {
+
+//     border: 2px red dotted;
+
+//     padding: 2%;
+// }
+
+
+
+
+
+
+// LESS Parametric Mixin: create a parametric mixin that is used to create the `sign up` button styles.
+
+
+// Use at least 2 parameters to create your button
+
+.signUpBtn(@color, @bgcolor) {
+
+    color: @color;
+    
+    background-color: @bgcolor;
+
+    &:hover {
+
+        background-color: @color;
+
+        color: @bgcolor;
+
+    } // CREATED HOVER STATE OF SWITCHING BASE STYLES
+    
+    }// CREATED MIXIN W/ 2 PARAMS
+
+
+// Create a hover state that swaps the background color and font color of the base button styles.
+
