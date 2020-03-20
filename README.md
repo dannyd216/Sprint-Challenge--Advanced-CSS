@@ -36,11 +36,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Mobile first design focuses on the smaller screen first, using min-width.
+
+Desktop first design focuses on the bigger scale of screen first, using max-width.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+It tells us to use 62.5% of 
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing allows us to 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+The favorite concept is nesting and being able to use mixins
+
+The parametric mixin gives the most trouble
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
